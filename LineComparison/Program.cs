@@ -13,9 +13,9 @@ namespace LineComparisonProblem
             CalculateLength calculate2 = new CalculateLength(1, 3, 3, 5);
             double length2 = calculate2.Calculate();
             if (length1.Equals(length2))//length1==length2
-                Console.WriteLine("Both Lines are Equal");
+                Console.WriteLine("Both Lines are Equals");
             else
-                Console.WriteLine("Both Lines are Not Equal");
+                Console.WriteLine("Both Lines are Not Equals");
             if (length1.CompareTo(length2) == 0)
                 Console.WriteLine("line 1 and line 2 both are equal");
             if (length1.CompareTo(length2) > 0)
